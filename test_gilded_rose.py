@@ -26,11 +26,11 @@ class GildedRoseTest(unittest.TestCase):
         gr.update_quality()
         self.assertEquals(-1, items[0].quality)
 
-    # def test_foo(self):
-    #     items = [Item("foo", 0, 0)]
-    #     gilded_rose = GildedRose(items)
-    #     gilded_rose.update_quality()
-    #     self.assertEquals("fixme", items[0].name)
+    def test_foo(self):
+        items = [Item("foo", 0, 0)]
+        gilded_rose = GildedRose(items)
+        gilded_rose.update_quality()
+        self.assertEquals("fixme", items[0].name)
 
 
 if __name__ == '__main__':
